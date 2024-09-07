@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="vote.css">
+  <title>Vote for Candidates</title>
+</head>
+<body>
+  <h1>Vote for Your Favorite Candidate</h1>
+
+  <div class="candidates">
+    <div id="candidate1" class="candidate" onclick="vote('Faseeh Aftab')">Faseeh Aftab (Taaba) - Votes: <span id="votes1">0</span></div>
+    <div id="candidate2" class="candidate" onclick="vote('Ali Naveed')">Ali Naveed - Votes: <span id="votes2">0</span></div>
+  </div>
+
+  <p>Total Votes: <span id="totalVotes">0</span></p>
+
+  <script src="vote.js"></script>
+</body>
+</html>
